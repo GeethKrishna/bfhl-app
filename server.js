@@ -60,7 +60,6 @@ app.post('/bfhl', (req, res) => {
 // GET /bfhl endpoint
 app.get('/bfhl', (req, res) => {
   res.json({
-    is_success: true,
     operation_code: 1
   });
 });
